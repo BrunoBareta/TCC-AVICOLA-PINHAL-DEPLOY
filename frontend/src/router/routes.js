@@ -1,0 +1,341 @@
+const routes = [
+  // ==========================
+  // LOGIN / ÁREA PÚBLICA
+  // ==========================
+
+  {
+    path: '/',
+
+    component: () =>
+      import(
+        'layouts/LoginLayout.vue'
+      ),
+
+    children: [
+      {
+        path: '',
+        name: 'login',
+
+        component: () =>
+          import(
+            'pages/auth/LoginPage.vue'
+          )
+      },
+
+      {
+        path: 'cadastro',
+        name: 'cadastro',
+
+        component: () =>
+          import(
+            'pages/auth/CadastroPage.vue'
+          )
+      },
+
+      {
+        path: 'recuperar-senha',
+        name: 'recuperar-senha',
+
+        component: () =>
+          import(
+            'pages/auth/RecuperarSenhaPage.vue'
+          )
+      }
+    ]
+  },
+
+  // ==========================
+  // PRODUTOR
+  // ==========================
+
+  {
+    path: '/produtor',
+
+    component: () =>
+      import(
+        'layouts/ProdutorLayout.vue'
+      ),
+
+    meta: {
+      requiresAuth: true,
+      roles: ['PRODUTOR']
+    },
+
+    children: [
+      {
+        path: '',
+        redirect: '/produtor/dashboard'
+      },
+
+      {
+        path: 'dashboard',
+        name: 'produtor-dashboard',
+
+        component: () =>
+          import(
+            'pages/produtor/DashboardPage.vue'
+          )
+      },
+
+      {
+        path: 'chamados',
+        name: 'produtor-chamados',
+
+        component: () =>
+          import(
+            'pages/produtor/ChamadosPage.vue'
+          )
+      },
+
+      {
+        path: 'chamados/:id',
+        name: 'produtor-detalhes-chamado',
+
+        component: () =>
+          import(
+            'pages/produtor/DetalhesChamadoPage.vue'
+          )
+      },
+
+      {
+        path: 'relatorios',
+        name: 'produtor-relatorios',
+
+        component: () =>
+          import(
+            'pages/produtor/RelatoriosPage.vue'
+          )
+      },
+
+      {
+        path: 'perfil',
+        name: 'produtor-perfil',
+
+        component: () =>
+          import(
+            'pages/produtor/PerfilPage.vue'
+          )
+      },
+
+      {
+        path: 'novo-chamado',
+        name: 'produtor-novo-chamado',
+
+        component: () =>
+          import(
+            'pages/produtor/NovoChamadoPage.vue'
+          )
+      }
+    ]
+  },
+
+  // ==========================
+  // TÉCNICO
+  // ==========================
+
+  {
+    path: '/tecnico',
+
+    component: () =>
+      import(
+        'layouts/TecnicoLayout.vue'
+      ),
+
+    meta: {
+      requiresAuth: true,
+      roles: ['FUNCIONARIO']
+    },
+
+    children: [
+      {
+        path: '',
+        redirect: '/tecnico/dashboard'
+      },
+
+      {
+        path: 'dashboard',
+        name: 'tecnico-dashboard',
+
+        component: () =>
+          import(
+            'pages/tecnico/DashboardTecnicoPage.vue'
+          )
+      },
+
+      {
+        path: 'chamados-pendentes',
+        name: 'tecnico-pendentes',
+
+        component: () =>
+          import(
+            'pages/tecnico/ChamadosPendentesPage.vue'
+          )
+      },
+
+      {
+        path: 'meus-chamados',
+        name: 'tecnico-meus-chamados',
+
+        component: () =>
+          import(
+            'pages/tecnico/MeusChamadosPage.vue'
+          )
+      },
+
+      {
+        path: 'chamados/:id',
+        name: 'tecnico-detalhes-chamado',
+
+        component: () =>
+          import(
+            'pages/tecnico/AtendimentoPage.vue'
+          )
+      },
+
+      {
+        path: 'atendimento',
+        name: 'tecnico-atendimento',
+
+        redirect: {
+          name: 'tecnico-meus-chamados',
+
+          query: {
+            filtro: 'andamento'
+          }
+        }
+      },
+
+      {
+        path: 'atendimento/:id',
+        name: 'tecnico-atendimento-detalhes',
+
+        component: () =>
+          import(
+            'pages/tecnico/AtendimentoPage.vue'
+          )
+      },
+
+      {
+        path: 'perfil',
+        name: 'tecnico-perfil',
+
+        component: () =>
+          import(
+            'pages/tecnico/PerfilTecnicoPage.vue'
+          )
+      }
+    ]
+  },
+
+  // ==========================
+  // ADMINISTRADOR
+  // ==========================
+
+  {
+    path: '/admin',
+
+    component: () =>
+      import(
+        'layouts/AdminLayout.vue'
+      ),
+
+    meta: {
+      requiresAuth: true,
+      roles: ['ADMINISTRADOR']
+    },
+
+    children: [
+      {
+        path: '',
+        redirect: '/admin/dashboard'
+      },
+
+      // DASHBOARD
+
+      {
+        path: 'dashboard',
+        name: 'admin-dashboard',
+
+        component: () =>
+          import(
+            'pages/admin/DashboardAdminPage.vue'
+          )
+      },
+
+      // CHAMADOS
+
+      {
+        path: 'chamados',
+        name: 'admin-chamados',
+
+        component: () =>
+          import(
+            'pages/admin/ChamadosAdminPage.vue'
+          )
+      },
+
+      // TÉCNICOS
+
+      {
+        path: 'tecnicos',
+        name: 'admin-tecnicos',
+
+        component: () =>
+          import(
+            'pages/admin/TecnicosAdminPage.vue'
+          )
+      },
+
+      // PRODUTORES
+
+      {
+        path: 'produtores',
+        name: 'admin-produtores',
+
+        component: () =>
+          import(
+            'pages/admin/ProdutoresAdminPage.vue'
+          )
+      },
+
+      // RELATÓRIOS
+
+      {
+        path: 'relatorios',
+        name: 'admin-relatorios',
+
+        component: () =>
+          import(
+            'pages/admin/RelatoriosAdminPage.vue'
+          )
+      },
+
+      // PERFIL
+
+      {
+        path: 'perfil',
+        name: 'admin-perfil',
+
+        component: () =>
+          import(
+            'pages/admin/PerfilAdminPage.vue'
+          )
+      }
+    ]
+  },
+
+  // ==========================
+  // 404
+  // ==========================
+
+  {
+    path: '/:catchAll(.*)*',
+
+    component: () =>
+      import(
+        'pages/ErrorNotFound.vue'
+      )
+  }
+]
+
+export default routes

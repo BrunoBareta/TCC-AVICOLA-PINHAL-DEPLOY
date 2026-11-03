@@ -1,0 +1,7 @@
+CORREÇÃO DATAS DO BACKEND — AVÍCOLA PINHAL
+1. Pare o backend (Ctrl+C) e faça backup do arquivo src/app.js.
+2. Extraia este ZIP na pasta raiz C:\Users\bruno\TCC_PINHAL_TESTE\backend\Avicola_Pinhal_Backend_Testes (substitui apenas src/app.js).
+3. Reinicie com npm start.
+4. No chamado, confira data de abertura, histórico e listagens.
+A mudança preserva a ocultação recursiva de campos de senha, mas transforma objetos Date em ISO antes da limpeza.
+Não modifique .env, package.json ou banco.

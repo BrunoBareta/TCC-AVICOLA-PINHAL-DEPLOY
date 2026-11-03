@@ -1,0 +1,18 @@
+CORREÇÃO — IDENTIDADE E SESSÃO POR ABA (AVÍCOLA PINHAL)
+
+CAUSA: a versão anterior compartilhava localStorage['usuario'] e localStorage['token'] entre abas da mesma origem. Ao testar administrador, técnico e produtor ao mesmo tempo, o token podia mudar enquanto a página ainda exibia o perfil antigo, resultando em HTTP 403 na criação de chamados/propriedades.
+
+CORREÇÃO: usar sessionStorage por aba para usuário e token em todo o frontend. Preferências do tema continuam no localStorage. O backend continua verificando token, perfil e vínculo com o recurso; NÃO removemos permissões.
+
+INSTALAÇÃO:
+1. Pare APENAS o Quasar no terminal do frontend usando Ctrl+C.
+2. Faça cópia da pasta TCC_PINHAL_TESTE\frontend\Avicola_Pinhal_Frontend_Testes.
+3. Copie as pastas src do ZIP por cima da pasta do frontend, mantendo a estrutura; o pacote contém os arquivos completos, não somente trechos.
+4. Na pasta raiz do frontend, execute npm run dev. NÃO precisa repetir npm ci.
+5. Feche TODAS as abas antigas do localhost:9000; abra nova aba normal e faça login com administrador. Abra uma segunda aba anônima e faça login com técnico; abra uma TERCEIRA aba (ou janela) e entre como produtor. Cada aba terá sessão própria. Ao abrir nova aba, o sistema poderá exigir novo login — esse é o comportamento esperado.
+6. Na aba de produtor FELIPE, confirme na seção Perfil que consta a Fazenda Alegria e tente Novo Chamado. Não crie conta nova para resolver o problema.
+7. Caso apareça Julio Souza no papel de PRODUTOR novamente, execute no pgAdmin (banco Render tcc_pinhal):
+SELECT id_usuario, nome, tipo_usuario, ativo FROM public.usuarios WHERE LOWER(nome) LIKE '%julio%' ORDER BY id_usuario;
+Isso diferencia erro de sessão de eventual cadastro duplicado com o mesmo nome.
+
+IMPORTANTE: O frontend continua em desenvolvimento. Não faça deploy público antes de revisar anexos, data/hora e testes completos. Não compartilhe senhas nem tokens.

@@ -1,0 +1,1 @@
+Extrair na raiz do frontend Avicola_Pinhal_Frontend_Testes (com substituição), preservando outros arquivos, .env e node_modules. Testar: node .\testes\testar_cadastro_token.cjs. Reiniciar npm run dev. Confira antes se há cadastro incompleto anterior. Backend não alterado.
