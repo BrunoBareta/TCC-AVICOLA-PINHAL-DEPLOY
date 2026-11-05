@@ -372,7 +372,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .anexos-icone {
@@ -415,7 +415,7 @@ onMounted(
 
   background: #f9fafb;
 
-  font-size: 13px;
+  font-size: 14px;
 
   text-align: center;
 }
@@ -535,7 +535,7 @@ onMounted(
 .preview-video span {
   color: #9a3412;
 
-  font-size: 11px;
+  font-size: 13px;
 
   font-weight: 700;
 }
@@ -551,7 +551,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 700;
 
@@ -565,7 +565,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* VISUALIZADOR */
@@ -742,7 +742,7 @@ onMounted(
   }
 
   .anexos-subtitulo {
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .anexos-grid {

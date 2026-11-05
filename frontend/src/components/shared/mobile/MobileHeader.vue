@@ -104,7 +104,7 @@ const {
 }
 
 .mobile-header__subtitle {
-  font-size: 12px;
+  font-size: 14px;
   color: #98a2b3;
   margin-top: 2px;
 }

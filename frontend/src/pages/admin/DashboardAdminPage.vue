@@ -1673,7 +1673,7 @@ onMounted(
 .dashboard-hero__label {
   color: #f97316;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 900;
 
   letter-spacing: 1px;
@@ -1695,7 +1695,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .dashboard-hero__acoes {
@@ -1749,7 +1749,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -1760,7 +1760,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 
   text-transform: capitalize;
@@ -1801,7 +1801,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* =========================================================
@@ -1928,7 +1928,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1941,7 +1941,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2011,7 +2011,7 @@ onMounted(
 .alerta-operacional__texto strong {
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 900;
 }
 
@@ -2020,7 +2020,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .alerta-operacional__estrutura {
@@ -2031,7 +2031,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -2105,7 +2105,7 @@ onMounted(
 .grafico-titulo {
   color: #101828;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
 }
 
@@ -2114,7 +2114,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .grafico-icone {
@@ -2196,7 +2196,7 @@ onMounted(
 .doughnut-centro span {
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .legenda-status {
@@ -2242,7 +2242,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .legenda-item span:not(.ponto) {
@@ -2250,7 +2250,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 /* =========================================================
@@ -2278,13 +2278,13 @@ onMounted(
 .estado-vazio strong {
   color: #475467;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .estado-vazio span {
   max-width: 300px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* =========================================================
@@ -2441,7 +2441,7 @@ onMounted(
   }
 
   .data-card strong {
-    font-size: 11px;
+    font-size: 13px;
     overflow-wrap: anywhere;
   }
 
@@ -2491,7 +2491,7 @@ onMounted(
 
   .indicador-conteudo span {
     margin-top: 4px;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.3;
     overflow-wrap: anywhere;
   }
@@ -2513,7 +2513,7 @@ onMounted(
   .alerta-operacional__texto span {
     display: block;
     margin-left: 0;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.45;
   }
 
@@ -2532,11 +2532,11 @@ onMounted(
   }
 
   .grafico-titulo {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .grafico-subtitulo {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.35;
   }
 
@@ -2572,7 +2572,7 @@ onMounted(
   }
 
   .doughnut-centro span {
-    font-size: 9px;
+    font-size: 13px;
   }
 
   .legenda-status {
@@ -2581,11 +2581,11 @@ onMounted(
   }
 
   .legenda-item strong {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .legenda-item span:not(.ponto) {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.2;
   }
 }

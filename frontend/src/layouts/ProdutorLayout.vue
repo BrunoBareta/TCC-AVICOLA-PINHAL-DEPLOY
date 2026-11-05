@@ -471,7 +471,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 600;
 
   text-align: center;
@@ -563,7 +563,7 @@ async function sair() {
 }
 
 .mobile-nav__item span {
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -623,7 +623,7 @@ async function sair() {
 .mobile-nav__novo-label {
   color: #f97316;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 

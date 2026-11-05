@@ -2430,7 +2430,7 @@ onMounted(() => {
 
   color: #f97316;
 
-  font-size: 11px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -2452,7 +2452,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 13px;
+  font-size: 14px;
 
 }
 
@@ -2504,7 +2504,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
   line-height: 1.5;
 
@@ -2610,7 +2610,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -2620,7 +2620,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
 
 }
 
@@ -2684,7 +2684,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
   line-height: 1.6;
 
@@ -2704,7 +2704,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -2766,7 +2766,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -3057,12 +3057,12 @@ onMounted(() => {
 }
 
 .perfil-tipo {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .perfil-propriedade {
   margin-top: 11px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .perfil-conteudo {
@@ -3083,13 +3083,13 @@ onMounted(() => {
 
 .card-subtitulo {
   margin-top: 2px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .card-cabecalho .q-btn {
   min-height: 36px;
   border-radius: 9px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .form-grid {
@@ -3112,16 +3112,16 @@ onMounted(() => {
 }
 
 .propriedade-nome {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .propriedade-local {
   margin-top: 3px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .propriedade-cep {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 @media (max-width: 1000px) {
@@ -3252,13 +3252,13 @@ onMounted(() => {
 .perfil-tipo {
   margin-top: 3px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .perfil-propriedade {
   margin-top: 10px;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =========================================================
@@ -3266,13 +3266,13 @@ onMounted(() => {
 ========================================================= */
 
 .card-titulo {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .card-subtitulo {
   margin-top: 2px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .card-cabecalho .q-btn,
@@ -3282,7 +3282,7 @@ onMounted(() => {
 
   border-radius: 9px;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -3297,7 +3297,7 @@ onMounted(() => {
 .form-grid :deep(.q-field__native),
 .form-grid :deep(.q-field__input),
 .form-grid :deep(.q-field__label) {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* =========================================================
@@ -3322,19 +3322,19 @@ onMounted(() => {
 }
 
 .propriedade-nome {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .propriedade-local {
   margin-top: 2px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .propriedade-cep {
   margin-top: 2px;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .mapa-perfil {

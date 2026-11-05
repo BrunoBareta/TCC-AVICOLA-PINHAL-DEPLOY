@@ -906,7 +906,7 @@ function esqueciMinhaSenha() {
 
   color: #ea580c;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 800;
 
@@ -1154,7 +1154,7 @@ function esqueciMinhaSenha() {
 
   color: #059669;
 
-  font-size: 11px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1216,7 +1216,7 @@ function esqueciMinhaSenha() {
 
   color: #2563eb;
 
-  font-size: 11px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1254,7 +1254,7 @@ function esqueciMinhaSenha() {
 
   color: #059669;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1394,7 +1394,7 @@ function esqueciMinhaSenha() {
 
   color: #344054;
 
-  font-size: 13px;
+  font-size: 14px;
 
   font-weight: 800;
 
@@ -1406,7 +1406,7 @@ function esqueciMinhaSenha() {
 
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 700;
 
@@ -1502,7 +1502,7 @@ function esqueciMinhaSenha() {
 
   color: #667085;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1598,7 +1598,7 @@ function esqueciMinhaSenha() {
 
   color: #475467;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1734,7 +1734,7 @@ function esqueciMinhaSenha() {
 
   color: #344054;
 
-  font-size: 13px;
+  font-size: 14px;
 
   font-weight: 800;
 
@@ -1746,7 +1746,7 @@ function esqueciMinhaSenha() {
 
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 700;
 
@@ -1778,7 +1778,7 @@ function esqueciMinhaSenha() {
 
   color: #059669;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1884,7 +1884,7 @@ function esqueciMinhaSenha() {
 
   color: #344054;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 800;
 
@@ -2006,7 +2006,7 @@ function esqueciMinhaSenha() {
 
   color: #344054;
 
-  font-size: 13px;
+  font-size: 14px;
 
   font-weight: 700;
 
@@ -2038,7 +2038,7 @@ function esqueciMinhaSenha() {
 
   font-family: inherit;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 700;
 
@@ -2106,7 +2106,7 @@ function esqueciMinhaSenha() {
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
 
   text-align: center;
 
@@ -2192,7 +2192,7 @@ function esqueciMinhaSenha() {
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
 
   line-height: 1.5;
 
@@ -2320,7 +2320,7 @@ function esqueciMinhaSenha() {
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
 
   line-height: 1.5;
 
@@ -3172,7 +3172,7 @@ function esqueciMinhaSenha() {
 
   .login-subtitle {
 
-    font-size: 13px;
+    font-size: 14px;
 
   }
 

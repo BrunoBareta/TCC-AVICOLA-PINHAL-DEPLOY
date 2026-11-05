@@ -718,7 +718,7 @@ onMounted(carregarDeslocamento)
 .card-subtitulo {
   margin-top: 4px;
   color: #667085;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -754,7 +754,7 @@ onMounted(carregarDeslocamento)
 .desistencia-texto {
   margin-top: 4px;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -776,7 +776,7 @@ onMounted(carregarDeslocamento)
 
 .informacao-label {
   color: #98a2b3;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -804,7 +804,7 @@ onMounted(carregarDeslocamento)
 
 .previsao-label {
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .previsao-valor {
@@ -837,7 +837,7 @@ onMounted(carregarDeslocamento)
 .concluido-texto {
   margin-top: 4px;
   color: #667085;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 @media (max-width: 650px) {
@@ -860,5 +860,59 @@ onMounted(carregarDeslocamento)
   .desistencia-container .q-btn {
     width: 100%;
   }
+}
+
+
+/* =========================================================
+   CORREÇÃO: SEM ROLAGEM HORIZONTAL NO DESLOCAMENTO
+   ========================================================= */
+.deslocamento-card { width: 100%; max-width: 100%; min-width: 0; padding: 20px; }
+.deslocamento-card > *, .card-cabecalho > div { min-width: 0; }
+.card-titulo { font-size: 20px; }
+.card-subtitulo, .desistencia-texto { font-size: 14px; line-height: 1.5; }
+.desistencia-titulo { font-size: 15px; }
+.formulario-inicial {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, .88fr);
+  gap: 10px;
+  align-items: stretch;
+  min-width: 0;
+}
+.formulario-inicial .q-field, .retorno-container > *,
+.formulario-inicial .q-btn { min-width: 0; max-width: 100%; }
+.formulario-inicial .q-field__control { min-width: 0; }
+.botao-acao {
+  width: 100%;
+  min-height: 54px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.botao-acao :deep(.q-btn__content) {
+  font-size: 13px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.25;
+  gap: 4px;
+}
+.desistencia-container { min-width: 0; gap: 12px; }
+.desistencia-container > div { min-width: 0; flex: 1; }
+.desistencia-container .q-btn { min-width: 0; max-width: 44%; padding: 5px 9px; }
+.desistencia-container .q-btn :deep(.q-btn__content) {
+  white-space: normal;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.informacoes-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.retorno-container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.informacao-label, .previsao-label { font-size: 13px; }
+.informacao-valor, .previsao-valor { font-size: 15px; }
+@media (max-width: 700px) {
+  .deslocamento-card { padding: 18px; }
+  .formulario-inicial, .retorno-container, .informacoes-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .desistencia-container { flex-direction: column; align-items: stretch; }
+  .desistencia-container .q-btn { max-width: 100%; width: 100%; }
 }
 </style>

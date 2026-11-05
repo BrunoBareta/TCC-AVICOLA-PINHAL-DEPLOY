@@ -2907,7 +2907,7 @@ onMounted(
 .pagina-topo p {
   margin: 5px 0 0;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* =====================================================
@@ -2979,7 +2979,7 @@ onMounted(
 .resumo-label {
   margin-top: 2px;
   color: #667085;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =====================================================
@@ -3012,7 +3012,7 @@ onMounted(
 .lista-subtitulo {
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .filtros {
@@ -3037,7 +3037,7 @@ onMounted(
   padding-bottom: 13px;
   border-bottom: 1px solid #eaecf0;
   color: #98a2b3;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .limpar-filtros {
@@ -3047,7 +3047,7 @@ onMounted(
   background: transparent;
   cursor: pointer;
   font-family: inherit;
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -3106,7 +3106,7 @@ onMounted(
   padding: 12px 6px;
   border-bottom: 1px solid #eaecf0;
   color: #98a2b3;
-  font-size: 7.5px;
+  font-size: 12px;
   font-weight: 800;
   text-align: left;
   text-transform: uppercase;
@@ -3119,7 +3119,7 @@ onMounted(
   padding: 14px 6px;
   border-bottom: 1px solid #f2f4f7;
   color: #475467;
-  font-size: 8.5px;
+  font-size: 12px;
   vertical-align: middle;
   overflow: hidden;
 }
@@ -3130,7 +3130,7 @@ onMounted(
 
 .chamado-id {
   color: #f97316;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .solicitacao-info {
@@ -3141,7 +3141,7 @@ onMounted(
   display: block;
   overflow: hidden;
   color: #344054;
-  font-size: 10px;
+  font-size: 13px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -3151,7 +3151,7 @@ onMounted(
   overflow: hidden;
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -3242,7 +3242,7 @@ onMounted(
 
 .acompanhamento-superior {
   color: #f97316;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.7px;
 }
@@ -3260,7 +3260,7 @@ onMounted(
 .acompanhamento-subtitulo {
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .acompanhamento-header-acoes {
@@ -3278,7 +3278,7 @@ onMounted(
   border-radius: 20px;
   color: #027a48;
   background: #ecfdf3;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -3366,19 +3366,19 @@ onMounted(
 .resumo-atendimento-item span {
   display: block;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .resumo-atendimento-item strong {
   display: block;
   margin-top: 2px;
   color: #344054;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .resumo-atendimento-item--km strong {
   color: #7c3aed;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* =====================================================
@@ -3416,7 +3416,7 @@ onMounted(
 .painel-card-subtitulo {
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .painel-card-icone {
@@ -3491,7 +3491,7 @@ onMounted(
 .etapa-admin-label {
   margin-top: 7px;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -3526,7 +3526,7 @@ onMounted(
   gap: 7px;
   margin-bottom: 11px;
   color: #344054;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -3561,7 +3561,7 @@ onMounted(
 .km-item span {
   display: block;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -3569,7 +3569,7 @@ onMounted(
   display: block;
   margin-top: 4px;
   color: #344054;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .km-item--destaque strong {
@@ -3582,7 +3582,7 @@ onMounted(
   border-radius: 11px;
   color: #344054;
   background: #ecfdf3;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.6;
   white-space: pre-wrap;
 }
@@ -3592,7 +3592,7 @@ onMounted(
   border-radius: 10px;
   color: #98a2b3;
   background: #f9fafb;
-  font-size: 9px;
+  font-size: 13px;
   text-align: center;
 }
 
@@ -3608,7 +3608,7 @@ onMounted(
 .problema-admin > span {
   display: block;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -3623,7 +3623,7 @@ onMounted(
 .problema-admin p {
   margin: 7px 0 0;
   color: #667085;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.6;
 }
 
@@ -3647,7 +3647,7 @@ onMounted(
 .dados-chamado-grid span {
   display: block;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -3656,7 +3656,7 @@ onMounted(
   display: block;
   margin-top: 4px;
   color: #344054;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1.4;
 }
@@ -3686,7 +3686,7 @@ onMounted(
 .local-admin-endereco span {
   display: block;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -3695,7 +3695,7 @@ onMounted(
   display: block;
   margin-top: 3px;
   color: #344054;
-  font-size: 9px;
+  font-size: 13px;
   line-height: 1.45;
 }
 
@@ -3743,7 +3743,7 @@ onMounted(
   border-radius: 9px;
   color: #667085;
   background: #f9fafb;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* =====================================================
@@ -3768,28 +3768,28 @@ onMounted(
 .funcionario-avatar {
   color: #f97316;
   background: #fff1e6;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 900;
 }
 
 .funcionario-item strong {
   display: block;
   color: #344054;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .funcionario-item span {
   display: block;
   margin-top: 1px;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .funcionario-item small {
   display: block;
   margin-top: 3px;
   color: #667085;
-  font-size: 7px;
+  font-size: 12px;
 }
 
 /* =====================================================
@@ -3840,7 +3840,7 @@ onMounted(
 
 .cancelado-conteudo span {
   margin-top: 2px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =====================================================
@@ -4162,7 +4162,7 @@ onMounted(
 .resumo-label {
   margin-top: 5px;
   color: #475467;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -4193,7 +4193,7 @@ onMounted(
 
 .lista-subtitulo {
   margin-top: 3px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .filtros {
@@ -4221,7 +4221,7 @@ onMounted(
 .filtro-select :deep(.q-field__native),
 .filtro-select :deep(.q-field__input),
 .filtro-select :deep(.q-field__label) {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .botao-atualizar-lista {
@@ -4236,11 +4236,11 @@ onMounted(
   padding: 9px 18px;
   border-bottom: 1px solid #eaecf0;
   color: #667085;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .limpar-filtros {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* =====================================================
@@ -4265,7 +4265,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 900;
 
   text-align: left;
@@ -4283,7 +4283,7 @@ onMounted(
 
   color: #475467;
 
-  font-size: 10.5px;
+  font-size: 13px;
   line-height: 1.35;
 
   vertical-align: middle;
@@ -4300,7 +4300,7 @@ onMounted(
 
 .chamado-id {
   color: #f97316;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
 }
 
@@ -4311,7 +4311,7 @@ onMounted(
 
   color: #24324a;
 
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 
   text-overflow: ellipsis;
@@ -4327,7 +4327,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -4336,7 +4336,7 @@ onMounted(
 .pessoa-info,
 .tecnico-info {
   gap: 7px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -4347,7 +4347,7 @@ onMounted(
 
 .chamados-tabela :deep(.q-badge) {
   padding: 6px 10px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -4395,7 +4395,7 @@ onMounted(
 }
 
 .acao-btn :deep(.q-btn__content) {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -4557,13 +4557,13 @@ onMounted(
   .resumo-icone { width: 37px; height: 37px; border-radius: 11px; }
   .resumo-icone :deep(.q-icon) { font-size: 22px !important; }
   .resumo-numero { font-size: 23px; }
-  .resumo-label { font-size: 11px; line-height: 1.3; }
+  .resumo-label { font-size: 13px; line-height: 1.3; }
   .resumo-card:last-child { grid-column: 1 / -1; }
   .lista-card { padding: 0; overflow: visible; }
   .lista-cabecalho { flex-direction: row; align-items: center; padding: 16px 14px 12px; }
   .lista-titulo { font-size: 15px; }
-  .lista-subtitulo { font-size: 11px; }
-  .resultado-info { flex-wrap: wrap; padding: 10px 14px; font-size: 11px; }
+  .lista-subtitulo { font-size: 13px; }
+  .resultado-info { flex-wrap: wrap; padding: 10px 14px; font-size: 13px; }
   .tabela-container { display: none !important; }
   .chamados-mobile-lista { display: grid; gap: 10px; padding: 12px; }
   .chamado-mobile-card {
@@ -4574,8 +4574,8 @@ onMounted(
     background: #fff;
   }
   .chamado-mobile-topo { display: flex; align-items: center; gap: 8px; }
-  .chamado-mobile-topo .chamado-id { font-size: 13px; }
-  .chamado-mobile-topo :deep(.q-badge) { font-size: 10px; padding: 5px 8px; }
+  .chamado-mobile-topo .chamado-id { font-size: 14px; }
+  .chamado-mobile-topo :deep(.q-badge) { font-size: 13px; padding: 5px 8px; }
   .chamado-mobile-titulo {
     margin-top: 7px;
     color: #24324a;
@@ -4587,7 +4587,7 @@ onMounted(
   .chamado-mobile-descricao {
     margin-top: 4px;
     color: #667085;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4;
     overflow-wrap: anywhere;
   }
@@ -4603,14 +4603,14 @@ onMounted(
   .chamado-mobile-dados span {
     display: block;
     color: #98a2b3;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
   }
   .chamado-mobile-dados strong {
     display: block;
     margin-top: 3px;
     color: #344054;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.35;
     overflow-wrap: anywhere;
@@ -4625,8 +4625,8 @@ onMounted(
     padding-top: 9px;
     border-top: 1px solid #f2f4f7;
   }
-  .chamado-mobile-rodape :deep(.q-badge) { padding: 5px 8px; font-size: 10px; }
-  .chamado-mobile-rodape :deep(.q-btn) { font-size: 12px; }
+  .chamado-mobile-rodape :deep(.q-badge) { padding: 5px 8px; font-size: 13px; }
+  .chamado-mobile-rodape :deep(.q-btn) { font-size: 14px; }
 
   .chamados-admin-page--dark .chamado-mobile-card {
     border-color: #292d33;
@@ -4642,7 +4642,7 @@ onMounted(
   .chamados-admin-page { padding-inline: 9px; }
   .resumo-card { padding: 10px; }
   .resumo-icone { width: 32px; height: 32px; }
-  .resumo-label { font-size: 10px; }
+  .resumo-label { font-size: 13px; }
   .chamados-mobile-lista { padding: 9px; }
   .chamado-mobile-card { padding: 11px; }
 }

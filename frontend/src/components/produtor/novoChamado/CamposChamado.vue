@@ -189,7 +189,7 @@ const urgencias = [
 .campo-titulo {
   margin-bottom: 12px;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.7px;
   text-transform: uppercase;

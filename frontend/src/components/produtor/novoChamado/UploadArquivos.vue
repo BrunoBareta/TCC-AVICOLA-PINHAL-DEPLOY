@@ -47,6 +47,6 @@
   max-width: 440px;
   margin: 7px auto 0;
   color: #98a2b3;
-  font-size: 13px;
+  font-size: 14px;
 }
 </style>

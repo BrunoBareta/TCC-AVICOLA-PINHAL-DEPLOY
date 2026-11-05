@@ -814,7 +814,7 @@ onMounted(
   padding:
     7px 12px;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 600;
 }
@@ -880,7 +880,7 @@ onMounted(
 
   background: #f9fafb;
 
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* ==================================================
@@ -930,7 +930,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* ==================================================
@@ -971,7 +971,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .cards-mobile {
@@ -1033,7 +1033,7 @@ onMounted(
 .chamado-card__numero {
   color: #f97316;
 
-  font-size: 13px;
+  font-size: 14px;
 
   font-weight: 800;
 }
@@ -1092,7 +1092,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 12px;
+  font-size: 14px;
 
   text-overflow: ellipsis;
 
@@ -1104,7 +1104,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
   font-weight: 600;
 
@@ -1130,7 +1130,7 @@ onMounted(
 
   color: #f97316;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 700;
 }

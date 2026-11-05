@@ -1177,7 +1177,7 @@ onMounted(
 
 .chamado-numero {
   color: #f97316;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -1212,7 +1212,7 @@ onMounted(
 
 .informacao-label {
   color: #98a2b3;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1294,7 +1294,7 @@ onMounted(
 .etapa-label {
   margin-top: 9px;
   color: #98a2b3;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -1324,7 +1324,7 @@ onMounted(
 .local-origem {
   max-width: 250px;
   color: #98a2b3;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.4;
 }
 
@@ -1359,7 +1359,7 @@ onMounted(
 
 .local-endereco-label {
   color: #98a2b3;
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1367,7 +1367,7 @@ onMounted(
 .local-endereco-valor {
   margin-top: 3px;
   color: #344054;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.45;
 }
@@ -1400,7 +1400,7 @@ onMounted(
   color: #667085;
   background: #f9fafb;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* =========================================
@@ -1445,7 +1445,7 @@ onMounted(
 
   color: #c2410c;
 
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -1477,7 +1477,7 @@ onMounted(
 .funcionario-funcao {
   margin-top: 2px;
   color: #98a2b3;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .total-equipe {
@@ -1488,7 +1488,7 @@ onMounted(
     1px solid #eaecf0;
 
   color: #667085;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* =========================================
@@ -1503,7 +1503,7 @@ onMounted(
 
 .observacao-finalizada-label {
   color: #027a48;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -1521,7 +1521,7 @@ onMounted(
   border-radius: 12px;
   color: #667085;
   background: #f9fafb;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* =========================================
@@ -1740,7 +1740,7 @@ onMounted(
 
   border-radius: 9px;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -1768,7 +1768,7 @@ onMounted(
 }
 
 .chamado-numero {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .chamado-problema {
@@ -1780,7 +1780,7 @@ onMounted(
 .card-titulo {
   margin-bottom: 11px;
 
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .card .q-separator.q-my-lg {
@@ -1804,17 +1804,17 @@ onMounted(
 }
 
 .informacao-label {
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .informacao-valor {
   margin-top: 2px;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .descricao {
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -1832,7 +1832,7 @@ onMounted(
 .etapa-label {
   margin-top: 5px;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 /* LOCALIZAÇÃO */
@@ -1842,7 +1842,7 @@ onMounted(
 }
 
 .local-origem {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .local-icone {
@@ -1862,11 +1862,11 @@ onMounted(
 }
 
 .local-endereco-label {
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .local-endereco-valor {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .local-acoes {
@@ -1878,7 +1878,7 @@ onMounted(
 
   border-radius: 9px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .local-mapa {
@@ -1899,13 +1899,13 @@ onMounted(
 }
 
 .aguardando-titulo {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .aguardando-texto {
   margin-top: 3px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* EQUIPE */
@@ -1917,18 +1917,18 @@ onMounted(
 }
 
 .funcionario-nome {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .funcionario-funcao {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .total-equipe {
   margin-top: 9px;
   padding-top: 9px;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* OBSERVAÇÃO */
@@ -1941,12 +1941,12 @@ onMounted(
 }
 
 .observacao-finalizada-label {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .observacao-finalizada-texto,
 .sem-observacao {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* DARK */
@@ -1993,4 +1993,34 @@ onMounted(
   }
 }
 
+
+
+/* =========================================================
+   LEGIBILIDADE E LARGURA — DETALHES DO ATENDIMENTO
+   ========================================================= */
+.atendimento-page { width: 100%; min-width: 0; max-width: 100%; }
+.atendimento-grid { width: 100%; max-width: 100%; min-width: 0; }
+.atendimento-grid > *, .coluna-principal, .coluna-lateral,
+.coluna-principal > *, .coluna-lateral > * {
+  min-width: 0;
+  max-width: 100%;
+}
+.card { min-width: 0; }
+.chamado-numero { font-size: 13px; }
+.card-titulo { font-size: 17px; }
+.informacao-label, .etapa-label, .local-endereco-label,
+.local-origem, .observacao-finalizada-label { font-size: 12px; line-height: 1.4; }
+.informacao-valor, .descricao, .local-endereco-valor,
+.observacao-finalizada-texto, .sem-observacao,
+.funcionario-nome, .aguardando-texto { font-size: 14px; line-height: 1.5; }
+.pagina-acoes .q-btn, .local-acoes .q-btn,
+.funcionario-funcao, .total-equipe { font-size: 13px; }
+@media (max-width: 1200px) {
+  .atendimento-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (min-width: 1201px) {
+  .atendimento-grid {
+    grid-template-columns: minmax(0, 1.55fr) minmax(330px, .65fr);
+  }
+}
 </style>

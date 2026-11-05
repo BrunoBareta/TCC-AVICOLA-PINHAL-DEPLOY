@@ -805,7 +805,7 @@ onBeforeUnmount(
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.4;
 }
 
@@ -853,7 +853,7 @@ onBeforeUnmount(
 .localizacao-label {
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
 
   text-transform: uppercase;
@@ -864,7 +864,7 @@ onBeforeUnmount(
 
   color: #344054;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
 }
 
@@ -873,7 +873,7 @@ onBeforeUnmount(
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.45;
 }
 
@@ -905,7 +905,7 @@ onBeforeUnmount(
 
   color: #475467;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
 }
 
@@ -916,7 +916,7 @@ onBeforeUnmount(
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
@@ -988,7 +988,7 @@ onBeforeUnmount(
   }
 
   .mapa-titulo {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 </style>

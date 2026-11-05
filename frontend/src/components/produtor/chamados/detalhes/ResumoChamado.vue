@@ -168,7 +168,7 @@ function classeStatus(status) {
 .protocolo {
   color: #f97316;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
 
   letter-spacing: 0.45px;
@@ -232,7 +232,7 @@ function classeStatus(status) {
 .item-label {
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 
   text-transform: uppercase;
@@ -254,7 +254,7 @@ function classeStatus(status) {
 .status-cancelado {
   padding: 7px 12px;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
 }
 

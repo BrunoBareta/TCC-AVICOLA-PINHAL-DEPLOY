@@ -840,7 +840,7 @@ function formatarData(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 
   word-break: break-word;
 }
@@ -859,7 +859,7 @@ function formatarData(
   color: #f97316;
   background: #fff1e6;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -895,7 +895,7 @@ function formatarData(
 .card-titulo {
   color: #101828;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
 }
 
@@ -904,7 +904,7 @@ function formatarData(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .botao-card {
@@ -912,7 +912,7 @@ function formatarData(
 
   border-radius: 9px;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -968,7 +968,7 @@ function formatarData(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .dado-item strong {
@@ -980,7 +980,7 @@ function formatarData(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 
   text-overflow: ellipsis;
@@ -1011,7 +1011,7 @@ function formatarData(
 
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -1021,7 +1021,7 @@ function formatarData(
 
 .campo :deep(.q-field__native),
 .campo :deep(.q-field__input) {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .form-acoes {
@@ -1107,7 +1107,7 @@ function formatarData(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .conta-item strong {
@@ -1117,7 +1117,7 @@ function formatarData(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1177,7 +1177,7 @@ function formatarData(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1188,7 +1188,7 @@ function formatarData(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
   line-height: 1.4;
 }
 
@@ -1198,7 +1198,7 @@ function formatarData(
 
   border-radius: 9px;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1243,7 +1243,7 @@ function formatarData(
 
   color: #344054;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 900;
 }
 
@@ -1254,7 +1254,7 @@ function formatarData(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.45;
 }
 
@@ -1281,7 +1281,7 @@ function formatarData(
   color: #667085;
   background: #f8fafc;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -1491,11 +1491,11 @@ function formatarData(
 }
 
 .perfil-email {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .perfil-badge {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .card-titulo {
@@ -1503,60 +1503,60 @@ function formatarData(
 }
 
 .card-subtitulo {
-  font-size: 10px;
-}
-
-.botao-card {
-  font-size: 11px;
-}
-
-.dado-item span {
-  font-size: 9px;
-}
-
-.dado-item strong {
   font-size: 13px;
 }
 
+.botao-card {
+  font-size: 13px;
+}
+
+.dado-item span {
+  font-size: 13px;
+}
+
+.dado-item strong {
+  font-size: 14px;
+}
+
 .campo label {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .campo :deep(.q-field__native),
 .campo :deep(.q-field__input) {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .conta-item span {
-  font-size: 9px;
-}
-
-.conta-item strong {
-  font-size: 12px;
-}
-
-.senha-info strong {
-  font-size: 12px;
-}
-
-.senha-info span {
-  font-size: 9px;
-}
-
-.alterar-senha-btn {
-  font-size: 10px;
-}
-
-.acesso-texto strong {
   font-size: 13px;
 }
 
+.conta-item strong {
+  font-size: 14px;
+}
+
+.senha-info strong {
+  font-size: 14px;
+}
+
+.senha-info span {
+  font-size: 13px;
+}
+
+.alterar-senha-btn {
+  font-size: 13px;
+}
+
+.acesso-texto strong {
+  font-size: 14px;
+}
+
 .acesso-texto span {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .acesso-recursos span {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .resumo-card .avatar-grande {
@@ -1575,11 +1575,11 @@ function formatarData(
 }
 
 .perfil-email {
-  font-size: 13px !important;
+  font-size: 14px !important;
 }
 
 .perfil-badge {
-  font-size: 12px !important;
+  font-size: 14px !important;
   padding: 7px 12px !important;
 }
 
@@ -1591,14 +1591,14 @@ function formatarData(
 
 .card-subtitulo {
   margin-top: 4px !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
   line-height: 1.4 !important;
 }
 
 /* Botão editar */
 .botao-card {
   min-height: 40px !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 /* Informações pessoais */
@@ -1608,7 +1608,7 @@ function formatarData(
 }
 
 .dado-item span {
-  font-size: 11px !important;
+  font-size: 13px !important;
 }
 
 .dado-item strong {
@@ -1629,7 +1629,7 @@ function formatarData(
 }
 
 .conta-item span {
-  font-size: 11px !important;
+  font-size: 13px !important;
 }
 
 .conta-item strong {
@@ -1650,13 +1650,13 @@ function formatarData(
 
 .senha-info span {
   margin-top: 4px !important;
-  font-size: 11px !important;
+  font-size: 13px !important;
   line-height: 1.4 !important;
 }
 
 .alterar-senha-btn {
   min-height: 40px !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 /* Acesso administrativo */
@@ -1666,24 +1666,24 @@ function formatarData(
 
 .acesso-texto span {
   margin-top: 4px !important;
-  font-size: 11px !important;
+  font-size: 13px !important;
   line-height: 1.4 !important;
 }
 
 .acesso-recursos span {
   padding: 7px 10px !important;
-  font-size: 11px !important;
+  font-size: 13px !important;
 }
 
 /* Formulário em edição */
 .campo label {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 .campo :deep(.q-field__native),
 .campo :deep(.q-field__input),
 .campo :deep(.q-field__label) {
-  font-size: 13px !important;
+  font-size: 14px !important;
 }
 
 /* Ajusta alturas para o texto maior não ficar apertado */

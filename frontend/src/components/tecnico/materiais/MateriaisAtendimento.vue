@@ -433,7 +433,7 @@ onMounted(carregarMateriais)
 .materiais-subtitulo {
   margin-top: 4px;
   color: #667085;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* FORMULÁRIO */
@@ -506,7 +506,7 @@ onMounted(carregarMateriais)
 .material-detalhes {
   margin-top: 4px;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .material-acoes {
@@ -661,7 +661,7 @@ onMounted(carregarMateriais)
   }
 
   .materiais-subtitulo {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.4;
   }
 

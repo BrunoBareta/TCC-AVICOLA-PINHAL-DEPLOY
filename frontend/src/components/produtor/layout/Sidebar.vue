@@ -342,7 +342,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
 }
 
@@ -365,7 +365,7 @@ async function sair() {
       #f97316
     );
 
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 
   box-shadow:
@@ -391,7 +391,7 @@ async function sair() {
 
   color: #475467;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
 
   transition:
@@ -489,7 +489,7 @@ async function sair() {
       #fed7aa
     );
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
 }
 
@@ -503,7 +503,7 @@ async function sair() {
 
   color: #17233c;
 
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 
   text-overflow: ellipsis;
@@ -515,7 +515,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.8px;
@@ -557,7 +557,7 @@ async function sair() {
 
   font-family: inherit;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 
   text-align: left;

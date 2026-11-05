@@ -1733,7 +1733,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -1853,7 +1853,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 10px;
+  font-size: 13px;
 
 }
 
@@ -1921,7 +1921,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -1977,7 +1977,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1999,7 +1999,7 @@ onMounted(() => {
 
   color: #475467;
 
-  font-size: 10px;
+  font-size: 13px;
 
   vertical-align: middle;
 
@@ -2041,7 +2041,7 @@ onMounted(() => {
 
   background: #fff1e6;
 
-  font-size: 11px;
+  font-size: 13px;
 
   font-weight: 900;
 
@@ -2053,7 +2053,7 @@ onMounted(() => {
 
   color: #344054;
 
-  font-size: 11px;
+  font-size: 13px;
 
 }
 
@@ -2065,7 +2065,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -2107,7 +2107,7 @@ onMounted(() => {
 
 .carregando {
 
-  font-size: 11px;
+  font-size: 13px;
 
 }
 
@@ -2137,13 +2137,13 @@ onMounted(() => {
 
   color: #475467;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
 .vazio span {
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -2217,7 +2217,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -2241,7 +2241,7 @@ onMounted(() => {
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 700;
 
@@ -2263,7 +2263,7 @@ onMounted(() => {
 
   background: #f9fafb;
 
-  font-size: 9px;
+  font-size: 13px;
 
   line-height: 1.5;
 
@@ -2307,7 +2307,7 @@ onMounted(() => {
 
   background: #fff1e6;
 
-  font-size: 13px;
+  font-size: 14px;
 
   font-weight: 900;
 
@@ -2361,7 +2361,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 
 }
 
@@ -2375,7 +2375,7 @@ onMounted(() => {
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
 
   text-overflow: ellipsis;
 
@@ -2661,7 +2661,7 @@ onMounted(() => {
 
   color: #475467;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 700;
 
@@ -2709,7 +2709,7 @@ onMounted(() => {
 
   margin-top: 2px;
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -2741,7 +2741,7 @@ onMounted(() => {
 
 .pesquisa-input :deep(.q-field__input) {
 
-  font-size: 11px;
+  font-size: 13px;
 
 }
 
@@ -2765,7 +2765,7 @@ onMounted(() => {
 
   border-radius: 10px;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -2807,7 +2807,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 9px;
+  font-size: 13px;
 
   font-weight: 900;
 
@@ -2829,7 +2829,7 @@ onMounted(() => {
 
   color: #475467;
 
-  font-size: 11px;
+  font-size: 13px;
 
   line-height: 1.35;
 
@@ -2855,7 +2855,7 @@ onMounted(() => {
 
   height: 42px;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -2865,7 +2865,7 @@ onMounted(() => {
 
   color: #24324a;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 800;
 
@@ -2877,7 +2877,7 @@ onMounted(() => {
 
   margin-top: 3px;
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -2885,7 +2885,7 @@ onMounted(() => {
 
   padding: 6px 10px;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -3243,7 +3243,7 @@ onMounted(() => {
 .usuario-nome {
   min-width: 0;
   color: #24324a;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1.4;
   overflow-wrap: anywhere;
@@ -3338,7 +3338,7 @@ onMounted(() => {
   }
   .resumo-label {
     margin-top: 2px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .lista-cabecalho {
     padding: 14px;
@@ -3350,7 +3350,7 @@ onMounted(() => {
     gap: 10px;
   }
   .usuario-nome {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 

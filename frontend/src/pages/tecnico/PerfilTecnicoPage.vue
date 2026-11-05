@@ -1144,7 +1144,7 @@ function salvarSenha() {
 
   color: #f97316;
 
-  font-size: 11px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1166,7 +1166,7 @@ function salvarSenha() {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -1234,7 +1234,7 @@ function salvarSenha() {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
   line-height: 1.5;
 
@@ -1316,7 +1316,7 @@ function salvarSenha() {
 
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 700;
 
@@ -1376,7 +1376,7 @@ function salvarSenha() {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -1590,13 +1590,13 @@ function salvarSenha() {
 .perfil-tipo {
   margin-top: 3px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .perfil-status {
   margin-top: 11px;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =========================================================
@@ -1610,13 +1610,13 @@ function salvarSenha() {
 }
 
 .card-titulo {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .card-subtitulo {
   margin-top: 2px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .card-cabecalho .q-btn,
@@ -1625,7 +1625,7 @@ function salvarSenha() {
 
   border-radius: 9px;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1640,7 +1640,7 @@ function salvarSenha() {
 .form-grid :deep(.q-field__native),
 .form-grid :deep(.q-field__input),
 .form-grid :deep(.q-field__label) {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* =========================================================
@@ -1669,13 +1669,13 @@ function salvarSenha() {
 }
 
 .profissional-label {
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .profissional-valor {
   margin-top: 2px;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* =========================================================
@@ -1987,7 +1987,7 @@ function salvarSenha() {
 .acesso-titulo {
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1996,7 +1996,7 @@ function salvarSenha() {
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
   line-height: 1.4;
 }
 

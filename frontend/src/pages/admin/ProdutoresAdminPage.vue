@@ -1294,7 +1294,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* =========================
@@ -1385,7 +1385,7 @@ onMounted(() => {
 
   color: #667085;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =========================
@@ -1435,7 +1435,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .pesquisa-input {
@@ -1470,7 +1470,7 @@ onMounted(() => {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1489,7 +1489,7 @@ onMounted(() => {
 
   color: #475467;
 
-  font-size: 10px;
+  font-size: 13px;
 
   vertical-align: middle;
 }
@@ -1527,7 +1527,7 @@ tr:hover {
 
   background: #fff1e6;
 
-  font-size: 11px;
+  font-size: 13px;
 
   font-weight: 900;
 }
@@ -1545,7 +1545,7 @@ tr:hover {
 
   color: #344054;
 
-  font-size: 11px;
+  font-size: 13px;
 
   text-overflow: ellipsis;
 
@@ -1563,7 +1563,7 @@ tr:hover {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
   text-overflow: ellipsis;
 
@@ -1621,7 +1621,7 @@ tr:hover {
 }
 
 .carregando {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .vazio-icone {
@@ -1647,11 +1647,11 @@ tr:hover {
 .vazio strong {
   color: #475467;
 
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .vazio span {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =========================
@@ -1698,7 +1698,7 @@ tr:hover {
 
   background: #fff1e6;
 
-  font-size: 13px;
+  font-size: 14px;
 
   font-weight: 900;
 }
@@ -1736,7 +1736,7 @@ tr:hover {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .detalhes-corpo {
@@ -1779,7 +1779,7 @@ tr:hover {
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .detalhe-item strong,
@@ -1791,7 +1791,7 @@ tr:hover {
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
 
   word-break: break-word;
 }
@@ -1872,7 +1872,7 @@ tr:hover {
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .localizacao-topo
@@ -1913,7 +1913,7 @@ tr:hover {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =========================
@@ -2109,7 +2109,7 @@ tr:hover {
 .resumo-label {
   margin-top: 5px;
   color: #475467;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -2140,7 +2140,7 @@ tr:hover {
 
 .lista-subtitulo {
   margin-top: 3px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .lista-acoes {
@@ -2161,7 +2161,7 @@ tr:hover {
 
 .pesquisa-input :deep(.q-field__native),
 .pesquisa-input :deep(.q-field__input) {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .botao-atualizar-lista {
@@ -2193,7 +2193,7 @@ tr:hover {
   border-bottom: 1px solid #eaecf0;
 
   color: #667085;
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 900;
 
   text-align: left;
@@ -2207,7 +2207,7 @@ tr:hover {
   border-bottom: 1px solid #f2f4f7;
 
   color: #475467;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.35;
 
   vertical-align: middle;
@@ -2224,25 +2224,25 @@ tr:hover {
 .produtor-avatar {
   width: 42px;
   height: 42px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .produtor-info strong {
   max-width: 220px;
   color: #24324a;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 }
 
 .produtor-info span {
   max-width: 240px;
   margin-top: 3px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .propriedade-info {
   gap: 7px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -2251,12 +2251,12 @@ tr:hover {
 }
 
 .sem-propriedade {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .produtores-tabela :deep(.q-badge) {
   padding: 6px 10px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2472,7 +2472,7 @@ tr:hover {
 .usuario-nome {
   min-width: 0;
   color: #24324a;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1.4;
   overflow-wrap: anywhere;
@@ -2567,7 +2567,7 @@ tr:hover {
   }
   .resumo-label {
     margin-top: 2px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .lista-cabecalho {
     padding: 14px;
@@ -2579,7 +2579,7 @@ tr:hover {
     gap: 10px;
   }
   .usuario-nome {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 

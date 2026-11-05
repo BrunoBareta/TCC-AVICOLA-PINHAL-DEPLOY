@@ -1862,7 +1862,7 @@ onMounted(
 .dashboard-hero__label {
   color: #f97316;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 900;
 
   letter-spacing: 1px;
@@ -1885,7 +1885,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .dashboard-hero__acoes {
@@ -1933,7 +1933,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -1944,7 +1944,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 
   text-transform: capitalize;
@@ -1985,7 +1985,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* ==================================================
@@ -2144,7 +2144,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2155,7 +2155,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2210,7 +2210,7 @@ onMounted(
 .card-titulo {
   color: #101828;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
 }
 
@@ -2219,13 +2219,13 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .card-kicker {
   color: #f97316;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 900;
 
   letter-spacing: 0.5px;
@@ -2343,7 +2343,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
   font-weight: 700;
 
   text-transform: uppercase;
@@ -2358,7 +2358,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 
   text-overflow: ellipsis;
@@ -2446,7 +2446,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -2470,7 +2470,7 @@ onMounted(
       #f97316
     );
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2527,7 +2527,7 @@ onMounted(
 .doughnut-centro span {
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .legenda-status {
@@ -2573,7 +2573,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .legenda-item span:not(.ponto) {
@@ -2581,7 +2581,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 /* ==================================================
@@ -2684,7 +2684,7 @@ onMounted(
 .chamado-id {
   color: #f97316;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 900;
 }
 
@@ -2699,7 +2699,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2714,7 +2714,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2799,7 +2799,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2814,7 +2814,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2823,7 +2823,7 @@ onMounted(
 .finalizado-data {
   color: #667085;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 /* ==================================================
@@ -2885,7 +2885,7 @@ onMounted(
 
   color: #475467;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .estado-vazio span {
@@ -2893,7 +2893,7 @@ onMounted(
 
   margin-top: 4px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* ==================================================
@@ -2910,7 +2910,7 @@ onMounted(
 .urgencia-alta {
   padding: 5px 9px;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -3202,7 +3202,7 @@ onMounted(
   }
 
   .data-card strong {
-    font-size: 9px;
+    font-size: 13px;
   }
 
   .chamado-problema {
@@ -3252,7 +3252,7 @@ onMounted(
 
 .secao-sobretitulo {
   color: #ef791f;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 850;
   letter-spacing: 0.9px;
 }
@@ -3267,7 +3267,7 @@ onMounted(
 
 .secao-ajuda {
   color: #98a2b3;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .dashboard-page--dark .secao-cabecalho h2 {
@@ -3310,7 +3310,7 @@ onMounted(
 
   .dashboard-hero__label {
     display: block;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 0.9px;
   }
 
@@ -3323,7 +3323,7 @@ onMounted(
   .dashboard-hero__descricao {
     display: block;
     margin-top: 3px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4;
   }
 
@@ -3350,8 +3350,8 @@ onMounted(
     border-radius: 11px;
   }
 
-  .data-card span { font-size: 10px; }
-  .data-card strong { font-size: 11px; line-height: 1.35; }
+  .data-card span { font-size: 13px; }
+  .data-card strong { font-size: 13px; line-height: 1.35; }
   .botao-atualizar { width: 39px; height: 39px; }
 
   .secao-cabecalho {
@@ -3407,7 +3407,7 @@ onMounted(
 
   .indicador-label {
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.2;
   }
 
@@ -3415,7 +3415,7 @@ onMounted(
     margin-top: 5px;
     overflow: visible;
     white-space: normal;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.25;
     text-overflow: clip;
   }
@@ -3456,7 +3456,7 @@ onMounted(
   }
 
   .card-kicker {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.4;
   }
 
@@ -3468,7 +3468,7 @@ onMounted(
   }
 
   .atendimento-cabecalho .q-badge {
-    font-size: 10px;
+    font-size: 13px;
     padding: 6px 10px;
   }
 
@@ -3492,12 +3492,12 @@ onMounted(
     border-radius: 9px;
   }
 
-  .info-item span { font-size: 9px; }
+  .info-item span { font-size: 13px; }
 
   .info-item strong {
     margin-top: 3px;
     overflow: visible;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.25;
     white-space: normal;
     overflow-wrap: anywhere;
@@ -3524,7 +3524,7 @@ onMounted(
 
   .progresso-label {
     margin-top: 6px;
-    font-size: 9px;
+    font-size: 13px;
     line-height: 1.2;
   }
 
@@ -3533,7 +3533,7 @@ onMounted(
     width: 100%;
     min-height: 45px;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .atendimento-vazio {
@@ -3556,7 +3556,7 @@ onMounted(
 
   .card-header > div:first-child { min-width: 0; }
   .card-titulo { font-size: 15px; line-height: 1.3; }
-  .card-subtitulo { margin-top: 3px; font-size: 11px; line-height: 1.35; }
+  .card-subtitulo { margin-top: 3px; font-size: 13px; line-height: 1.35; }
   .card-icone { width: 35px; height: 35px; }
 
   .doughnut-area {
@@ -3574,11 +3574,11 @@ onMounted(
   }
 
   .doughnut-centro strong { font-size: 23px; }
-  .doughnut-centro span { font-size: 10px; }
+  .doughnut-centro span { font-size: 13px; }
   .legenda-status { gap: 11px; }
   .legenda-item { gap: 7px; }
-  .legenda-item strong { font-size: 12px; }
-  .legenda-item span:not(.ponto) { font-size: 10px; line-height: 1.25; }
+  .legenda-item strong { font-size: 14px; }
+  .legenda-item span:not(.ponto) { font-size: 13px; line-height: 1.25; }
 
   /* Lista de pendentes com urgência ainda visível no celular. */
   .lista-card .card-header { align-items: flex-start; }
@@ -3586,7 +3586,7 @@ onMounted(
     flex-shrink: 0;
     padding: 0 3px;
     min-height: 32px;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .chamado-item {
@@ -3595,13 +3595,13 @@ onMounted(
     padding: 12px 10px;
   }
 
-  .chamado-id { font-size: 11px; }
-  .chamado-conteudo strong { font-size: 12px; }
-  .chamado-conteudo span { margin-top: 3px; font-size: 10px; }
+  .chamado-id { font-size: 13px; }
+  .chamado-conteudo strong { font-size: 14px; }
+  .chamado-conteudo span { margin-top: 3px; font-size: 13px; }
   .chamado-item .q-badge {
     display: inline-flex;
     padding: 5px 7px;
-    font-size: 9px;
+    font-size: 13px;
     white-space: nowrap;
   }
 
@@ -3610,23 +3610,23 @@ onMounted(
   .grafico-linha { height: 210px; padding: 4px 10px 14px; }
   .grafico-analitico { height: 220px; padding: 4px 10px 15px; }
   .estado-vazio--grafico { min-height: 175px; }
-  .estado-vazio strong { font-size: 12px; }
-  .estado-vazio span { font-size: 11px; line-height: 1.4; }
+  .estado-vazio strong { font-size: 14px; }
+  .estado-vazio span { font-size: 13px; line-height: 1.4; }
 }
 
 @media (max-width: 380px) {
   .dashboard-page { padding-right: 11px; padding-left: 11px; }
   .indicador-card { padding: 13px 11px; }
-  .indicador-label { font-size: 11px; }
-  .indicador-rodape { font-size: 9px; }
+  .indicador-label { font-size: 13px; }
+  .indicador-rodape { font-size: 13px; }
   .atendimento-card { padding: 13px; }
   .info-item { padding: 8px 7px; gap: 6px; }
   .info-icone { width: 28px; height: 28px; }
-  .info-item strong { font-size: 10px; }
+  .info-item strong { font-size: 13px; }
   .doughnut-area { gap: 9px; padding-right: 9px; padding-left: 9px; }
   .doughnut-wrapper { width: 118px; height: 118px; }
   .chamado-item { grid-template-columns: 28px minmax(0, 1fr) auto 26px; gap: 5px; }
-  .chamado-item .q-badge { padding: 4px 5px; font-size: 8px; }
+  .chamado-item .q-badge { padding: 4px 5px; font-size: 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

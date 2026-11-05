@@ -134,7 +134,7 @@ const subtitulo = computed(() => configuracao.value.subtitulo)
 
   color: #667085;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .header-marca {
@@ -144,7 +144,7 @@ const subtitulo = computed(() => configuracao.value.subtitulo)
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 900;
 
   letter-spacing: 1.5px;

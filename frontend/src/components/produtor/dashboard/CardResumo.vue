@@ -78,7 +78,7 @@ defineProps({
   top: 24px;
   right: 24px;
   color: #98a2b3;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.7px;
   text-transform: uppercase;

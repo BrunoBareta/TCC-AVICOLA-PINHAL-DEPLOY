@@ -271,3 +271,29 @@ body.body--dark ::-webkit-scrollbar-thumb {
 body.body--dark ::-webkit-scrollbar-thumb:hover {
   background: #f97316;
 }
+
+/* =========================================================
+   LEGIBILIDADE GLOBAL — REVISÃO TCC 2026-11
+   Aplicado a todos os perfis (admin, produtor e técnico).
+   Mantém títulos e ícones com suas proporções originais.
+   ========================================================= */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body, #q-app { font-size: 14px; line-height: 1.5; }
+.q-field__native, .q-field__input, .q-field__label,
+.q-item__label, .q-item__section, .q-select__dropdown-icon,
+.q-table tbody td, .q-table thead th,
+.q-dialog .q-card__section, .q-menu .q-item,
+.q-banner__content { font-size: 14px; line-height: 1.45; }
+.q-btn .q-btn__content { font-size: 14px; line-height: 1.3; }
+.q-table__bottom, .q-table__bottom .q-field,
+.q-badge, .q-chip__content, .text-caption,
+.q-tooltip, .q-field__bottom { font-size: 13px !important; }
+.q-page-container, .q-page, .q-card,
+.q-layout, .q-drawer__content { min-width: 0; }
+@media (max-width: 600px) {
+  body, #q-app { font-size: 14px; }
+  .q-btn .q-btn__content { font-size: 13px; }
+}

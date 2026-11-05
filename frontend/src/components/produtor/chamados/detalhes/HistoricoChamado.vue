@@ -307,7 +307,7 @@ function classeMarcador(status) {
 
   color: #98a2b3;
 
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .estado-vazio-titulo {
@@ -386,7 +386,7 @@ function classeMarcador(status) {
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -395,7 +395,7 @@ function classeMarcador(status) {
 
   color: #667085;
 
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -409,7 +409,7 @@ function classeMarcador(status) {
 
   color: #98a2b3;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 }
 

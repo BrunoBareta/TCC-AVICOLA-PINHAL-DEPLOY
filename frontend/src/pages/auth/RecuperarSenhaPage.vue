@@ -619,7 +619,7 @@ function voltarLogin() {
   background: transparent;
   cursor: pointer;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -668,7 +668,7 @@ function voltarLogin() {
   align-items: center;
   gap: 7px;
   color: #475467;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -689,7 +689,7 @@ function voltarLogin() {
   border-radius: 999px;
   background: #ffffff;
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   box-shadow:
     0 5px 12px
@@ -932,7 +932,7 @@ function voltarLogin() {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   text-align: center;
 }
@@ -954,7 +954,7 @@ function voltarLogin() {
 .subtitulo {
   margin-top: 7px;
   color: #667085;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.55;
 }
 
@@ -962,7 +962,7 @@ function voltarLogin() {
   margin-top: 7px;
   margin-bottom: 22px;
   color: #f97316;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
   word-break: break-all;
 }
@@ -994,7 +994,7 @@ function voltarLogin() {
   background: transparent;
   cursor: pointer;
   font-family: inherit;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .reenviar strong {
@@ -1004,7 +1004,7 @@ function voltarLogin() {
 .senha-ajuda {
   margin-top: 8px;
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* ==================================================
@@ -1128,11 +1128,11 @@ function voltarLogin() {
   }
 
   .visual-status {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .etapa-contador {
-    font-size: 9px;
+    font-size: 13px;
   }
 
   .fluxo {
@@ -1166,7 +1166,7 @@ function voltarLogin() {
   }
 
   .subtitulo {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 

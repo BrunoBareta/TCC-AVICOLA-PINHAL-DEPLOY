@@ -1097,7 +1097,7 @@ onMounted(
 .controle-subtitulo {
   margin-top: 2px;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
 }
 .controle-acoes {
   min-width: 0;
@@ -1122,7 +1122,7 @@ onMounted(
 }
 .controle-card :deep(.q-field__native),
 .controle-card :deep(.q-field__input) {
-  font-size: 10px;
+  font-size: 13px;
 }
 .botao-atualizar {
   width: 40px;
@@ -1212,7 +1212,7 @@ onMounted(
   display: block;
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
 }
 /* ==================================================
    LISTA
@@ -1238,14 +1238,14 @@ onMounted(
 .lista-cabecalho strong {
   display: block;
   color: #101828;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
 }
 .lista-cabecalho span {
   display: block;
   margin-top: 2px;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
 }
 .lista-cabecalho__direita {
   display: flex;
@@ -1258,7 +1258,7 @@ onMounted(
   gap: 5px;
   margin: 0 !important;
   color: #667085 !important;
-  font-size: 7px !important;
+  font-size: 12px !important;
 }
 .legenda-bolinha {
   width: 7px;
@@ -1328,7 +1328,7 @@ onMounted(
 .chamado-id-area span {
   display: block;
   color: #98a2b3;
-  font-size: 6px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.6px;
 }
@@ -1336,7 +1336,7 @@ onMounted(
   display: block;
   margin-top: 2px;
   color: #f97316;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 900;
 }
 .chamado-principal {
@@ -1345,7 +1345,7 @@ onMounted(
 .chamado-problema {
   overflow: hidden;
   color: #344054;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 900;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1354,7 +1354,7 @@ onMounted(
   overflow: hidden;
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -1381,7 +1381,7 @@ onMounted(
 .dado-item span {
   display: block;
   color: #98a2b3;
-  font-size: 6px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 .dado-item strong {
@@ -1389,7 +1389,7 @@ onMounted(
   overflow: hidden;
   margin-top: 2px;
   color: #475467;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1410,7 +1410,7 @@ onMounted(
 .botao-aceitar {
   min-height: 35px;
   border-radius: 10px;
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 .botao-detalhes {
@@ -1435,7 +1435,7 @@ onMounted(
 .urgencia-media,
 .urgencia-alta {
   padding: 5px 9px;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 .urgencia-baixa {
@@ -1461,7 +1461,7 @@ onMounted(
   justify-content: center;
   gap: 10px;
   color: #98a2b3;
-  font-size: 9px;
+  font-size: 13px;
 }
 .estado-vazio {
   min-height: 260px;
@@ -1486,11 +1486,11 @@ onMounted(
 }
 .estado-vazio strong {
   color: #475467;
-  font-size: 11px;
+  font-size: 13px;
 }
 .estado-vazio span {
   margin-top: 4px;
-  font-size: 8px;
+  font-size: 12px;
 }
 /* ==================================================
    DIALOG
@@ -1526,14 +1526,14 @@ onMounted(
 .dialog-subtitulo {
   margin-top: 2px;
   color: #98a2b3;
-  font-size: 8px;
+  font-size: 12px;
 }
 .dialog-conteudo {
   padding: 18px;
 }
 .dialog-numero {
   color: #f97316;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 900;
 }
 .dialog-chamado > strong {
@@ -1546,7 +1546,7 @@ onMounted(
   display: block;
   margin-top: 5px;
   color: #667085;
-  font-size: 9px;
+  font-size: 13px;
   line-height: 1.5;
 }
 .dialog-grid {
@@ -1564,14 +1564,14 @@ onMounted(
 .dialog-grid span {
   display: block;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 .dialog-grid strong {
   display: block;
   margin-top: 3px;
   color: #344054;
-  font-size: 9px;
+  font-size: 13px;
 }
 .dialog-aviso {
   display: flex;
@@ -1582,7 +1582,7 @@ onMounted(
   border-radius: 10px;
   color: #9a3412;
   background: #fff7ed;
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.5;
 }
 .dialog-acoes {

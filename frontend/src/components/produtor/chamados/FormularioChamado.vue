@@ -2136,7 +2136,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .secao-indicador {
@@ -2153,7 +2153,7 @@ onMounted(
 
   background: #fff1e6;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -2193,7 +2193,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2205,7 +2205,7 @@ onMounted(
 .opcional {
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .descricao-input :deep(.q-field__control) {
@@ -2215,7 +2215,7 @@ onMounted(
 }
 
 .descricao-input :deep(textarea) {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.45;
 }
 
@@ -2310,7 +2310,7 @@ onMounted(
 .tipo-card-titulo {
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2321,7 +2321,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2376,7 +2376,7 @@ onMounted(
 
   font-family: inherit;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 
   cursor: pointer;
@@ -2415,13 +2415,13 @@ onMounted(
 
 .arquivo-input :deep(.q-field__native),
 .arquivo-input :deep(.q-field__input) {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .arquivo-limite {
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -2444,7 +2444,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -2483,7 +2483,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
 
   text-overflow: ellipsis;
@@ -2495,7 +2495,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 /* =====================================================
@@ -2598,7 +2598,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2611,7 +2611,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2673,7 +2673,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 6px;
+  font-size: 12px;
 
   text-transform: uppercase;
 }
@@ -2687,7 +2687,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 
   text-overflow: ellipsis;
@@ -2699,7 +2699,7 @@ onMounted(
 
   color: #f97316;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -2731,7 +2731,7 @@ onMounted(
 
 .busca-localizacao-input :deep(.q-field__native),
 .busca-localizacao-input :deep(.q-field__input) {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .botao-pesquisar,
@@ -2740,7 +2740,7 @@ onMounted(
 
   border-radius: 10px;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2775,7 +2775,7 @@ onMounted(
 
   background: #f9fafb;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .resultados-localizacao {
@@ -2833,7 +2833,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 8px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2848,7 +2848,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2871,7 +2871,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .sem-propriedade {
@@ -2895,13 +2895,13 @@ onMounted(
 }
 
 .sem-propriedade strong {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .sem-propriedade span {
   margin-top: 2px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* =====================================================
@@ -2939,7 +2939,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .acoes-botoes {
@@ -2965,7 +2965,7 @@ onMounted(
       #f97316
     );
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 
   box-shadow:

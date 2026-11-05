@@ -343,7 +343,7 @@ onMounted(carregarMateriais)
 .materiais-subtitulo {
   margin-top: 4px;
   color: #667085;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .formulario-material {
@@ -393,7 +393,7 @@ onMounted(carregarMateriais)
 .material-detalhes {
   margin-top: 4px;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .material-acoes {

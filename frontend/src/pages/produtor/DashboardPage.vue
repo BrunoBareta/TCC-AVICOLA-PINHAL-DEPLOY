@@ -1275,7 +1275,7 @@ onMounted(
 
 .dashboard-hero__label {
   color: #ea680f;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 900;
   letter-spacing: 1.1px;
 }
@@ -1291,7 +1291,7 @@ onMounted(
 .dashboard-hero__descricao {
   margin-top: 3px;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .dashboard-hero__acoes {
@@ -1327,7 +1327,7 @@ onMounted(
 .data-card span {
   display: block;
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -1335,7 +1335,7 @@ onMounted(
   display: block;
   margin-top: 1px;
   color: #344054;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
   line-height: 1.35;
 }
@@ -1356,7 +1356,7 @@ onMounted(
   justify-content: center;
   gap: 12px;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* TÍTULOS DAS SEÇÕES */
@@ -1370,7 +1370,7 @@ onMounted(
 
 .secao-sobretitulo {
   color: #ed751d;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 900;
   letter-spacing: 1.1px;
 }
@@ -1385,7 +1385,7 @@ onMounted(
 
 .secao-ajuda {
   color: #98a2b3;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .secao-cabecalho--graficos {
@@ -1466,7 +1466,7 @@ onMounted(
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.7px;
 }
@@ -1486,14 +1486,14 @@ onMounted(
 .principal-titulo {
   margin-top: 3px;
   color: #fff;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
 }
 
 .principal-descricao {
   margin-top: 2px;
   color: #b9c8dd;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .principal-ilustracao {
@@ -1515,7 +1515,7 @@ onMounted(
   padding-top: 11px;
   border-top: 1px solid rgba(255,255,255,0.13);
   color: #ffe1ca;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1581,7 +1581,7 @@ onMounted(
 .indicador-titulo {
   margin-top: 6px;
   color: #344054;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1.2;
 }
@@ -1589,7 +1589,7 @@ onMounted(
 .indicador-descricao {
   margin-top: 4px;
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.35;
 }
 
@@ -1637,7 +1637,7 @@ onMounted(
 .card-subtitulo {
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.45;
 }
 
@@ -1693,7 +1693,7 @@ onMounted(
 
 .doughnut-centro span {
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .legenda-status {
@@ -1722,14 +1722,14 @@ onMounted(
 .legenda-item strong {
   display: block;
   color: #344054;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.2;
 }
 
 .legenda-item span:not(.ponto) {
   display: block;
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .estado-vazio {
@@ -1746,12 +1746,12 @@ onMounted(
 
 .estado-vazio strong {
   color: #475467;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .estado-vazio span {
   max-width: 300px;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* MODO ESCURO */
@@ -1841,7 +1841,7 @@ onMounted(
   .dashboard-hero__barra { display: none; }
 
   .dashboard-hero__label {
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
   }
 
@@ -1853,7 +1853,7 @@ onMounted(
 
   .dashboard-hero__descricao {
     margin-top: 3px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .dashboard-hero__acoes {
@@ -1881,7 +1881,7 @@ onMounted(
     border-radius: 11px;
   }
 
-  .data-card strong { font-size: 11px; }
+  .data-card strong { font-size: 13px; }
   .botao-atualizar { width: 39px; height: 39px; }
 
   .secao-cabecalho {
@@ -1916,8 +1916,8 @@ onMounted(
   .mini-topo { margin-bottom: 10px; }
   .icone-wrapper { width: 36px; height: 36px; border-radius: 12px; }
   .indicador-numero { font-size: 28px; }
-  .indicador-titulo { font-size: 12px; }
-  .indicador-descricao { font-size: 10px; line-height: 1.25; }
+  .indicador-titulo { font-size: 14px; }
+  .indicador-descricao { font-size: 13px; line-height: 1.25; }
 
   .secao-cabecalho--graficos { margin-top: 25px; }
   .dashboard-grid { gap: 11px; margin-bottom: 11px; }
@@ -1927,7 +1927,7 @@ onMounted(
   .dashboard-card { border-radius: 18px; }
   .card-header { padding: 16px 16px 8px; }
   .card-titulo { font-size: 15px; }
-  .card-subtitulo { font-size: 11px; }
+  .card-subtitulo { font-size: 13px; }
   .grafico { height: 225px; padding: 6px 9px 14px; }
   .doughnut-area {
     min-height: 205px;
@@ -1936,7 +1936,7 @@ onMounted(
     padding: 14px 15px 17px;
   }
   .doughnut-wrapper { width: 145px; height: 145px; }
-  .legenda-item span:not(.ponto) { font-size: 10px; }
+  .legenda-item span:not(.ponto) { font-size: 13px; }
   .estado-vazio { min-height: 190px; }
 }
 
@@ -1944,8 +1944,8 @@ onMounted(
 @media (max-width: 360px) {
   .dashboard-page { padding-right: 11px; padding-left: 11px; }
   .indicador-card--mini { padding: 12px 11px; }
-  .indicador-titulo { font-size: 12px; }
-  .indicador-descricao { font-size: 9px; }
+  .indicador-titulo { font-size: 14px; }
+  .indicador-descricao { font-size: 13px; }
   .doughnut-area { gap: 9px; padding-right: 10px; padding-left: 10px; }
   .doughnut-wrapper { width: 125px; height: 125px; }
 }

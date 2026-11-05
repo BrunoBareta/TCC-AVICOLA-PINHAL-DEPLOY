@@ -935,7 +935,7 @@ function voltarLogin() {
 
   font-family: inherit;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 700;
 }
@@ -981,7 +981,7 @@ function voltarLogin() {
 .marca-subtitulo {
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* CARD */
@@ -1026,7 +1026,7 @@ function voltarLogin() {
 
   color: #667085;
 
-  font-size: 12px;
+  font-size: 14px;
 
   line-height: 1.5;
 }
@@ -1072,7 +1072,7 @@ function voltarLogin() {
 
   border-radius: 50%;
 
-  font-size: 12px;
+  font-size: 14px;
 
   font-weight: 800;
 }
@@ -1080,7 +1080,7 @@ function voltarLogin() {
 .etapa strong {
   display: block;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .etapa span {
@@ -1088,7 +1088,7 @@ function voltarLogin() {
 
   margin-top: 1px;
 
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .etapa.ativa {
@@ -1144,7 +1144,7 @@ function voltarLogin() {
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .form-grid {
@@ -1177,7 +1177,7 @@ function voltarLogin() {
 
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .mapa-container {
@@ -1206,7 +1206,7 @@ function voltarLogin() {
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
 
   text-align: center;
 }

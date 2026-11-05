@@ -1673,7 +1673,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -1715,7 +1715,7 @@ onMounted(
 
   font-family: inherit;
 
-  font-size: 9px;
+  font-size: 13px;
 
   font-weight: 700;
 
@@ -1735,7 +1735,7 @@ onMounted(
 
   background: #f2f4f7;
 
-  font-size: 8px;
+  font-size: 12px;
 
   text-align: center;
 
@@ -1807,7 +1807,7 @@ onMounted(
 
   color: #101828;
 
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -1819,7 +1819,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 
 }
 
@@ -1879,7 +1879,7 @@ onMounted(
 
   color: #f97316;
 
-  font-size: 9px;
+  font-size: 13px;
 
   font-weight: 900;
 
@@ -1897,7 +1897,7 @@ onMounted(
 
   color: #344054;
 
-  font-size: 10px;
+  font-size: 13px;
 
   font-weight: 800;
 
@@ -1915,7 +1915,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
 
   text-overflow: ellipsis;
 
@@ -1953,7 +1953,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
 
   text-transform: uppercase;
 
@@ -1971,7 +1971,7 @@ onMounted(
 
   color: #475467;
 
-  font-size: 8px;
+  font-size: 12px;
 
   font-weight: 600;
 
@@ -2027,7 +2027,7 @@ onMounted(
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
 }
 
@@ -2077,7 +2077,7 @@ onMounted(
 
   color: #475467;
 
-  font-size: 11px;
+  font-size: 13px;
 
 }
 
@@ -2085,7 +2085,7 @@ onMounted(
 
   margin-top: 5px;
 
-  font-size: 8px;
+  font-size: 12px;
 
 }
 
@@ -2443,7 +2443,7 @@ onMounted(
 
   border-radius: 9px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .filtro-botao strong {
@@ -2451,7 +2451,7 @@ onMounted(
 
   padding: 2px 6px;
 
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .campo-pesquisa {
@@ -2468,7 +2468,7 @@ onMounted(
 
 .campo-pesquisa :deep(.q-field__native),
 .campo-pesquisa :deep(.q-field__input) {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* LISTA */
@@ -2484,12 +2484,12 @@ onMounted(
 }
 
 .lista-cabecalho strong {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .lista-cabecalho span {
   margin-top: 2px;
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .chamado-card {
@@ -2501,19 +2501,19 @@ onMounted(
 }
 
 .chamado-problema {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .chamado-descricao,
 .chamado-info strong,
 .chamado-data strong {
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .chamado-info span,
 .chamado-status-area > span,
 .chamado-data span {
-  font-size: 6px;
+  font-size: 12px;
 }
 
 .chamado-status-area .q-badge {
@@ -2530,7 +2530,7 @@ onMounted(
 .urgencia-alta {
   padding: 5px 8px;
 
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .chamado-acoes .q-btn {
@@ -2538,7 +2538,7 @@ onMounted(
 }
 
 .chamado-acoes :deep(.q-btn__content) {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* DARK */
@@ -2596,11 +2596,11 @@ onMounted(
 }
 
 .lista-cabecalho strong {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .lista-cabecalho span {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* Cada chamado ganha um pouco mais de altura */
@@ -2612,18 +2612,18 @@ onMounted(
 
 /* Número */
 .chamado-numero {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* Título e descrição */
 .chamado-problema {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.25;
 }
 
 .chamado-descricao {
   margin-top: 4px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.3;
 }
 
@@ -2639,7 +2639,7 @@ onMounted(
 .chamado-info span,
 .chamado-status-area > span,
 .chamado-data span {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.2px;
 }
@@ -2647,7 +2647,7 @@ onMounted(
 .chamado-info strong,
 .chamado-data strong {
   margin-top: 3px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -2662,7 +2662,7 @@ onMounted(
 .urgencia-media,
 .urgencia-alta {
   padding: 6px 10px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* Ações */
@@ -2673,7 +2673,7 @@ onMounted(
 }
 
 .chamado-acoes :deep(.q-btn__content) {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -2686,12 +2686,12 @@ onMounted(
 .filtro-botao {
   min-height: 38px;
   padding: 8px 13px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .filtro-botao strong {
   min-width: 23px;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .campo-pesquisa {
@@ -2705,7 +2705,7 @@ onMounted(
 
 .campo-pesquisa :deep(.q-field__native),
 .campo-pesquisa :deep(.q-field__input) {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* Mantém responsivo sem exagerar no celular */
@@ -2716,16 +2716,16 @@ onMounted(
   }
 
   .chamado-problema {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .chamado-descricao {
-    font-size: 9px;
+    font-size: 13px;
   }
 
   .chamado-info strong,
   .chamado-data strong {
-    font-size: 9px;
+    font-size: 13px;
   }
 }
 

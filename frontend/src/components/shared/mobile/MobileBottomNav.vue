@@ -83,7 +83,7 @@ defineProps({
   flex-direction: column;
   gap: 2px;
   color: #98a2b3;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .mobile-nav__item.active {

@@ -667,7 +667,7 @@ onMounted(carregarDados)
 .pagina-acoes .q-btn {
   min-height: 38px;
   border-radius: 9px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -726,7 +726,7 @@ onMounted(carregarDados)
 .banner-texto {
   margin-top: 2px;
   color: #667085;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -818,7 +818,7 @@ onMounted(carregarDados)
 .dialog-subtitulo {
   margin-top: 4px;
   color: #667085;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .form-grid {
@@ -964,7 +964,7 @@ onMounted(carregarDados)
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.35;
 }
 
@@ -983,7 +983,7 @@ onMounted(carregarDados)
 
   border-radius: 8px;
 
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
 }
 

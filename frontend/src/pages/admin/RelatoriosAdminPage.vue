@@ -1548,7 +1548,7 @@ function criarPdf(
       )
 
       doc.setFontSize(
-        8
+        9.5
       )
 
       doc.setTextColor(
@@ -1816,7 +1816,7 @@ function desenharCabecalhoPdf(
   )
 
   doc.setFontSize(
-    8
+    9.5
   )
 
   doc.setTextColor(
@@ -1905,7 +1905,7 @@ function adicionarAssistenciaPdf(
   )
 
   doc.setFontSize(
-    8
+    9.5
   )
 
   doc.setTextColor(
@@ -1931,7 +1931,7 @@ function adicionarAssistenciaPdf(
   )
 
   doc.setFontSize(
-    7.7
+    9.5
   )
 
   doc.setTextColor(
@@ -1984,7 +1984,7 @@ function adicionarAssistenciaPdf(
   )
 
   doc.setFontSize(
-    8
+    9.5
   )
 
   doc.setTextColor(
@@ -2012,7 +2012,7 @@ function adicionarAssistenciaPdf(
     )
 
     doc.setFontSize(
-      7.5
+      9.5
     )
 
     doc.setTextColor(
@@ -2057,7 +2057,7 @@ function adicionarAssistenciaPdf(
         )
 
         doc.setFontSize(
-          7.5
+          9.5
         )
 
         doc.setTextColor(
@@ -2104,7 +2104,7 @@ function adicionarAssistenciaPdf(
   )
 
   doc.setFontSize(
-    8
+    9.5
   )
 
   doc.setTextColor(
@@ -2149,7 +2149,7 @@ function adicionarAssistenciaPdf(
   )
 
   doc.setFontSize(
-    7.5
+    9.5
   )
 
   doc.setTextColor(
@@ -2962,7 +2962,7 @@ function adicionarRodapePdf(
     )
 
     doc.setFontSize(
-      7
+      9.5
     )
 
     doc.setTextColor(
@@ -3113,7 +3113,7 @@ onMounted(
 .secao-subtitulo {
   margin-top: 4px;
   color: #98a2b3;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .chamados-acoes {
@@ -3133,7 +3133,7 @@ onMounted(
   border-bottom: 1px solid #eaecf0;
   color: #98a2b3;
   background: #fcfcfd;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =====================================================
@@ -3160,7 +3160,7 @@ onMounted(
   min-height: 42px;
   padding: 0 22px;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -3177,7 +3177,7 @@ onMounted(
 
 .chamado-id {
   color: #f97316;
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 900;
 }
 
@@ -3191,7 +3191,7 @@ onMounted(
   display: block;
   overflow: hidden;
   color: #344054;
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -3203,7 +3203,7 @@ onMounted(
   overflow: hidden;
   margin-top: 3px;
   color: #98a2b3;
-  font-size: 7px;
+  font-size: 12px;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -3211,7 +3211,7 @@ onMounted(
 .chamado-tecnico,
 .chamado-data {
   color: #667085;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 /* =====================================================
@@ -3292,11 +3292,11 @@ onMounted(
 
 .estado-vazio strong {
   color: #475467;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .estado-vazio span {
-  font-size: 9px;
+  font-size: 13px;
 }
 
 /* =====================================================
@@ -3504,13 +3504,13 @@ onMounted(
 .filtros-principais :deep(.q-field__native),
 .filtros-principais :deep(.q-field__input),
 .filtros-principais :deep(.q-field__label) {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .filtros-principais .q-btn {
   min-height: 40px;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -3549,13 +3549,13 @@ onMounted(
 
 .secao-subtitulo {
   margin-top: 3px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .chamados-acoes .q-btn {
   min-height: 38px;
   border-radius: 9px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -3566,11 +3566,11 @@ onMounted(
 .selecao-geral {
   min-height: 42px;
   padding: 4px 18px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .selecao-geral :deep(.q-checkbox__label) {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -3600,7 +3600,7 @@ onMounted(
 
   color: #667085;
 
-  font-size: 8.5px;
+  font-size: 12px;
   font-weight: 900;
 
   letter-spacing: 0.3px;
@@ -3613,25 +3613,25 @@ onMounted(
 }
 
 .chamado-id {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .chamado-solicitacao strong,
 .chamado-produtor strong {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.25;
 }
 
 .chamado-solicitacao span,
 .chamado-produtor span {
   margin-top: 4px;
-  font-size: 9px;
+  font-size: 13px;
   line-height: 1.3;
 }
 
 .chamado-tecnico,
 .chamado-data {
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.3;
 }
 
@@ -3648,7 +3648,7 @@ onMounted(
 .status-finalizado,
 .status-cancelado {
   padding: 6px 10px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -3793,7 +3793,7 @@ onMounted(
   }
   .filtros-principais :deep(.q-field__label),
   .filtros-principais :deep(.q-field__native),
-  .filtros-principais :deep(.q-field__input) { font-size: 12px; }
+  .filtros-principais :deep(.q-field__input) { font-size: 14px; }
   .filtros-avancados { grid-template-columns: 1fr; }
 
   .chamados-card { overflow: visible; }
@@ -3806,7 +3806,7 @@ onMounted(
     padding: 17px 15px 12px;
   }
   .secao-titulo { font-size: 16px; }
-  .secao-subtitulo { font-size: 12px; }
+  .secao-subtitulo { font-size: 14px; }
   .chamados-acoes {
     width: 100%;
     display: flex;
@@ -3823,9 +3823,9 @@ onMounted(
     align-items: center;
     padding: 7px 14px;
     gap: 4px 10px;
-    font-size: 11px;
+    font-size: 13px;
   }
-  .selecao-geral :deep(.q-checkbox__label) { font-size: 12px; }
+  .selecao-geral :deep(.q-checkbox__label) { font-size: 14px; }
   .lista-cabecalho { display: none; }
   .lista-chamados { display: grid; gap: 10px; padding: 12px; }
 
@@ -3858,7 +3858,7 @@ onMounted(
   .chamado-item > div:nth-child(7) { grid-area: status; justify-self: end; }
   .chamado-item > div:nth-child(8) { grid-area: data; text-align: right; }
   .chamado-item :deep(.q-checkbox) { margin-left: -8px; }
-  .chamado-id { font-size: 13px; }
+  .chamado-id { font-size: 14px; }
   .chamado-solicitacao strong {
     font-size: 14px;
     color: #24324a;
@@ -3872,7 +3872,7 @@ onMounted(
   .chamado-solicitacao .descricao-mobile-completa { display: block !important; }
   .chamado-solicitacao span {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 3px;
     white-space: normal;
     overflow: visible;
@@ -3890,25 +3890,25 @@ onMounted(
     display: block;
     margin-bottom: 3px;
     color: #98a2b3;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
   }
   .chamado-tecnico::before { content: 'Técnico'; }
   .chamado-produtor strong {
-    font-size: 12px;
+    font-size: 14px;
     overflow: visible;
     white-space: normal;
     overflow-wrap: anywhere;
   }
   .chamado-produtor span {
-    font-size: 11px;
+    font-size: 13px;
     overflow: visible;
     white-space: normal;
     overflow-wrap: anywhere;
   }
-  .chamado-tecnico { font-size: 12px; overflow-wrap: anywhere; }
-  .chamado-data { font-size: 11px; }
-  .chamado-item :deep(.q-badge) { font-size: 11px; padding: 6px 9px; }
+  .chamado-tecnico { font-size: 14px; overflow-wrap: anywhere; }
+  .chamado-data { font-size: 13px; }
+  .chamado-item :deep(.q-badge) { font-size: 13px; padding: 6px 9px; }
 
   .relatorios-admin-page--dark .chamado-item {
     border-color: #2b2f36;
@@ -3923,7 +3923,7 @@ onMounted(
   .lista-chamados { padding: 9px; }
   .chamado-item { padding: 12px; }
   .chamados-topo { padding-inline: 12px; }
-  .chamado-item :deep(.q-badge) { font-size: 10px; }
+  .chamado-item :deep(.q-badge) { font-size: 13px; }
 }
 
 </style>

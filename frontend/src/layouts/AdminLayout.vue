@@ -685,7 +685,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -712,7 +712,7 @@ async function sair() {
 
   text-decoration: none;
 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
 
   transition:
@@ -793,7 +793,7 @@ async function sair() {
 
   color: #101828;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 
   text-overflow: ellipsis;
@@ -807,7 +807,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 7px;
+  font-size: 12px;
   font-weight: 800;
 
   letter-spacing: 0.6px;
@@ -837,7 +837,7 @@ async function sair() {
 
   font-family: inherit;
 
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
 
   text-align: left;
@@ -912,7 +912,7 @@ async function sair() {
 
   color: #667085;
 
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .header-marca {
@@ -923,7 +923,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 900;
 
   letter-spacing: 1.5px;
@@ -1028,7 +1028,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -1110,7 +1110,7 @@ async function sair() {
 }
 
 .mobile-nav__item span {
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -1164,7 +1164,7 @@ async function sair() {
 .mobile-nav__novo-label {
   color: #f97316;
 
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -1207,7 +1207,7 @@ async function sair() {
 
   color: #98a2b3;
 
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .gestao-item {

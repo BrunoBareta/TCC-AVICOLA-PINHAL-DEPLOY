@@ -1330,7 +1330,7 @@ async function gerarPdf() {
     )
 
     doc.setFontSize(
-      9
+      9.5
     )
 
     doc.setTextColor(
@@ -1500,7 +1500,7 @@ async function gerarPdf() {
         )
 
         doc.setFontSize(
-          7
+          9.5
         )
 
         doc.setTextColor(
@@ -1600,7 +1600,7 @@ async function gerarPdf() {
             'helvetica',
 
           fontSize:
-            7.5,
+            9.5,
 
           cellPadding:
             2.5,
@@ -1778,7 +1778,7 @@ async function gerarPdf() {
         )
 
         doc.setFontSize(
-          8
+          9.5
         )
 
         doc.setTextColor(
@@ -1811,7 +1811,7 @@ async function gerarPdf() {
         /* DADOS BÁSICOS */
 
         doc.setFontSize(
-          7.5
+          9.5
         )
 
         doc.setTextColor(
@@ -1913,7 +1913,7 @@ async function gerarPdf() {
           )
 
           doc.setFontSize(
-            8
+            9.5
           )
 
           doc.setTextColor(
@@ -1944,7 +1944,7 @@ async function gerarPdf() {
           )
 
           doc.setFontSize(
-            7.8
+            9.5
           )
 
           doc.setTextColor(
@@ -2017,7 +2017,7 @@ async function gerarPdf() {
           )
 
           doc.setFontSize(
-            8
+            9.5
           )
 
           doc.setTextColor(
@@ -2045,7 +2045,7 @@ async function gerarPdf() {
             )
 
             doc.setFontSize(
-              7.5
+              9.5
             )
 
             doc.setTextColor(
@@ -2091,7 +2091,7 @@ async function gerarPdf() {
                 )
 
                 doc.setFontSize(
-                  7.5
+                  9.5
                 )
 
                 doc.setTextColor(
@@ -2130,7 +2130,7 @@ async function gerarPdf() {
           )
 
           doc.setFontSize(
-            8
+            9.5
           )
 
           doc.setTextColor(
@@ -2178,7 +2178,7 @@ async function gerarPdf() {
           )
 
           doc.setFontSize(
-            7.5
+            9.5
           )
 
           doc.setTextColor(
@@ -2272,7 +2272,7 @@ async function gerarPdf() {
       )
 
       doc.setFontSize(
-        7
+        9.5
       )
 
       doc.setTextColor(
@@ -3036,7 +3036,7 @@ onMounted(
   color:
     #98a2b3;
   font-size:
-    10px;
+    13px;
 }
 
 /* =========================
@@ -3095,7 +3095,7 @@ onMounted(
   color:
     #98a2b3;
   font-size:
-    10px;
+    13px;
 }
 
 .icone-lateral {
@@ -3177,7 +3177,7 @@ onMounted(
   background:
     #f9fafb;
   font-size:
-    9px;
+    13px;
 }
 
 .filtro-atual strong {
@@ -3201,7 +3201,7 @@ onMounted(
   color:
     #98a2b3;
   font-size:
-    9px;
+    13px;
 }
 
 .chamados-relatorio-lista {
@@ -3240,7 +3240,7 @@ onMounted(
   color:
     #f97316;
   font-size:
-    10px;
+    13px;
   font-weight:
     900;
 }
@@ -3258,7 +3258,7 @@ onMounted(
   color:
     #344054;
   font-size:
-    10px;
+    13px;
   font-weight:
     800;
   text-overflow:
@@ -3277,7 +3277,7 @@ onMounted(
   color:
     #98a2b3;
   font-size:
-    8px;
+    12px;
   text-overflow:
     ellipsis;
   white-space:
@@ -3293,7 +3293,7 @@ onMounted(
   color:
     #98a2b3;
   font-size:
-    7px;
+    12px;
   text-transform:
     uppercase;
 }
@@ -3302,7 +3302,7 @@ onMounted(
   color:
     #475467;
   font-size:
-    8px;
+    12px;
 }
 
 /* =========================
@@ -3396,12 +3396,12 @@ onMounted(
   color:
     #475467;
   font-size:
-    11px;
+    13px;
 }
 
 .sem-chamados span {
   font-size:
-    9px;
+    13px;
 }
 
 /* =========================
@@ -3576,7 +3576,7 @@ onMounted(
 .pagina-acoes .q-btn {
   min-height: 38px;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 800;
 }
 
@@ -3604,12 +3604,12 @@ onMounted(
 
 .card-titulo {
   margin-top: 4px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .card-texto {
   margin-top: 3px;
-  font-size: 7px;
+  font-size: 12px;
 }
 
 .graficos-grid {
@@ -3624,12 +3624,12 @@ onMounted(
 }
 
 .bloco-titulo {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .bloco-subtitulo {
   margin-top: 2px;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .icone-lateral {
@@ -3654,7 +3654,7 @@ onMounted(
 .relatorio-acoes .q-btn {
   min-height: 36px;
   border-radius: 9px;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .filtro-atual {

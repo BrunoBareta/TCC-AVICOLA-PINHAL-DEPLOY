@@ -466,7 +466,7 @@ onBeforeUnmount(() => {
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .mapa {
@@ -494,7 +494,7 @@ onBeforeUnmount(() => {
 
   color: #667085;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .coordenadas {
@@ -524,7 +524,7 @@ onBeforeUnmount(() => {
 
   color: #98a2b3;
 
-  font-size: 9px;
+  font-size: 13px;
 
   text-transform:
     uppercase;
@@ -537,7 +537,7 @@ onBeforeUnmount(() => {
 
   color: #344054;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 /* DARK */
